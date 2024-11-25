@@ -4,8 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-
-        EntityRepository entityRepository = new EntityRepository();
+        //EntityRepository entityRepository = new EntityRepository();
+        //Entity myEntity = entityRepository.GetByID(Guid.NewGuid());
+       UserRepository entityRepository = new UserRepository();
         Entity myEntity = entityRepository.GetByID(Guid.NewGuid());
 
         myEntity.Name = "Tom";

@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{FB04F9D3-D517-49FE-AA67-116A4C5F49DD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0BD8B865-CD17-4050-AE50-802582ED0D10} = {0BD8B865-CD17-4050-AE50-802582ED0D10}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtypeCovariance", "SubtypeCovariance\SubtypeCovariance.csproj", "{0BD8B865-CD17-4050-AE50-802582ED0D10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubtypeCovariance", "SubtypeCovariance\SubtypeCovariance.csproj", "{0BD8B865-CD17-4050-AE50-802582ED0D10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
